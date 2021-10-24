@@ -1,0 +1,24 @@
+,Name,Description,Test %,Random State,R2 Train,R2 Test,RMSE Test
+0,Baseline,Reproducing results from lesson 6,20.0,42,0.7737704713204777,0.7613614605401583,137.74759032352412
+1,Higher Test %,Reproducing results from lesson 6,30.0,42,0.7737405078321514,0.764352883972298,138.69711371657826
+2,Higher Test % 2,Reproducing results from lesson 6,50.0,42,0.7713858934579826,0.7694488114675967,137.71367922586035
+3,Lower test % - 10%,Baseline - test train slit change: test to 10%,10.0,42,0.7741456703354305,0.7496291596587231,141.90942543807898
+4,Tiny test % - 1%,Baseline with test train slit change: test to 1%,1.0,42,0.7728367941270673,0.7335651016110041,158.22051271692473
+5,Masive test % - 1%,Baseline with test train slit change: test to 99%,99.0,42,0.8658733754761572,0.3507644305917226,233.66913283443196
+6,Ordinals,setting ordinal encoding for location_code and coverage apres scaling numericals,20.0,42,0.7726734484847932,0.7605534509296823,137.98059401603317
+7,Ordinals,setting ordinal encoding for location_code and coverage before scaling numericals,20.0,42,0.7726770082290783,0.7605607726634152,137.9784844327116
+8,Basline Check,Baseline Check,20.0,42,0.7737704713204777,0.7613614605401583,137.74759032352412
+9,Ordinals - location_code only,Ordinal encoding for location_code pre-numerical scaling,20.0,42,0.7727556965149475,0.7605208745658207,137.98997972900952
+10,Ordinals - coverage only,Ordinal encoding for coverage pre-numerical scaling,20.0,42,0.7740333928866071,0.7622986846645115,137.47683068203432
+11,Ordinals - coverage only - seed change,Ordinal encoding for coverage pre-numerical scaling and seed change,20.0,79,0.7725582390703828,0.7691786827716205,140.4975364492109
+12,Ordinals - location_code only - seed change,Ordinal encoding for location_code pre-numerical scaling and seed change,20.0,79,0.7715134577988345,0.7676157404185543,140.97240394339448
+13,Ordinals - location_code and coverage - seed change,Ordinal encoding for location_code and coverage pre-numerical scaling and seed change,20.0,79,0.7713548658870578,0.7673112960435129,141.06471701140546
+14,Baseline - seed change,Baseline with seed set to 79 as a slight check to see if minor improvement with ordinals is random,20.0,79,0.7727774595272154,0.7697350653172393,140.32810335445055
+15,Baseline Check,Baseline Check - did i set everythig back other than seed before,20.0,42,0.7737704713204777,0.7613614605401583,137.74759032352412
+16,Baseline with customer_liftime_value excluded,"Baseline with min correlation with target set to 0.3 resuling in customer_lifetime_value being removed - could have been a column, doh ",20.0,42,0.7738493019234148,0.7621668417802627,137.51495169370227
+17,Baseline with customer_liftime_value excluded,"Baseline with min correlation with target set to 0.3 resuling in customer_lifetime_value being removed - could have been a column, doh ",20.0,79,0.7727555314498656,0.7698399679041739,140.2961348350948
+18,Baseline just monthly_premium_auto,"Baseline with min correlation with target set to 0.5 resuling in just monthly_premium_auto for numerical - could have been a column, doh ",20.0,79,0.7721366650101399,0.7692425497918212,140.47809764715737
+19,Baseline just monthly_premium_auto,"Baseline with min correlation with target set to 0.5 resuling in just monthly_premium_auto for numerical - could have been a column, doh ",20.0,42,0.7738804590494377,0.7625470558073117,137.4049879964909
+20,as last with ordinals,as last with ordinals ,20.0,42,0.772464458768483,0.7607903461680388,137.91232192252633
+21,as last with ordinals,as last with ordinals ,20.0,79,0.7712680050034955,0.7672569569957954,141.08118724566333
+22,Baseline Check,Baseline Check,20.0,42,0.7737704713204777,0.7613614605401583,137.74759032352412
